@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "MPHelpService.h"
 
 @interface ViewController ()
 
@@ -17,6 +18,16 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    NSLog(@"进入主页");
+    MPHelpService *api = [[MPHelpService alloc] initWithParametes:@{@"softkey":@"ydb"}];
+    [api startWithCompletionBlockWithSuccess:^(__kindof CNBaseRequest * _Nonnull request) {
+        NSDictionary *resultData = request.responseObject;
+        NSLog(@"%@",resultData);
+    } failure:^(__kindof CNBaseRequest * _Nonnull request) {
+        NSString *errorStr = [NSString stringWithFormat:@"%@",request.error];
+        NSLog(@"%@",errorStr);
+    }];
+    
 }
 
 

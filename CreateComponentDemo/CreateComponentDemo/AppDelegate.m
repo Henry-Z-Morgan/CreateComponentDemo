@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "MPBaseService.h"
+#import "CNNetworkConfig.h"
 
 @interface AppDelegate ()
 
@@ -17,7 +19,19 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    [self networkConfig];
+    
+    
     return YES;
+}
+
+//网络请求地址统一配置
+- (void)networkConfig {
+    CNNetworkConfig *config = [CNNetworkConfig sharedConfig];
+    //主服务请求地址
+    config.baseUrl = @"https://apis.1dabang.cn/v2/remote";
+    //副服务请求地址
+//    config.cdnUrl = kCDNHostPath;
 }
 
 
