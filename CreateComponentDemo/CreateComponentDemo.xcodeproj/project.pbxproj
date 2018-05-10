@@ -30,6 +30,10 @@
 		4CA019FB20A4406700642221 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CA019FA20A4406700642221 /* Foundation.framework */; };
 		4CA019FD20A4409300642221 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CA019FC20A4409200642221 /* libz.tbd */; };
 		4CA019FF20A440DE00642221 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CA019FE20A440DE00642221 /* AVFoundation.framework */; };
+		4CA01A0120A44C5A00642221 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CA01A0020A44C5A00642221 /* libc++.tbd */; };
+		4CA01A0520A44C7500642221 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CA01A0420A44C7500642221 /* CoreGraphics.framework */; };
+		4CA01A0720A44C8100642221 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CA01A0620A44C8100642221 /* SystemConfiguration.framework */; };
+		4CA01A0820A4507B00642221 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CA01A0220A44C6900642221 /* Security.framework */; };
 		8CCD58E3E4B0212541EFD323 /* libPods-CreateComponentDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 80AE5F750D925EE0F27CFF18 /* libPods-CreateComponentDemo.a */; };
 /* End PBXBuildFile section */
 
@@ -74,6 +78,10 @@
 		4CA019FA20A4406700642221 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		4CA019FC20A4409200642221 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		4CA019FE20A440DE00642221 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		4CA01A0020A44C5A00642221 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		4CA01A0220A44C6900642221 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		4CA01A0420A44C7500642221 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4CA01A0620A44C8100642221 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		80AE5F750D925EE0F27CFF18 /* libPods-CreateComponentDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CreateComponentDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		89543BE09B0D889B87A578AA /* Pods-CreateComponentDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CreateComponentDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CreateComponentDemo/Pods-CreateComponentDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -83,6 +91,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CA01A0820A4507B00642221 /* Security.framework in Frameworks */,
+				4CA01A0720A44C8100642221 /* SystemConfiguration.framework in Frameworks */,
+				4CA01A0520A44C7500642221 /* CoreGraphics.framework in Frameworks */,
+				4CA01A0120A44C5A00642221 /* libc++.tbd in Frameworks */,
 				4CA019FF20A440DE00642221 /* AVFoundation.framework in Frameworks */,
 				4CA019FD20A4409300642221 /* libz.tbd in Frameworks */,
 				4CA019FB20A4406700642221 /* Foundation.framework in Frameworks */,
@@ -189,6 +201,10 @@
 		AE4E5E3AFB8755A8C21233BE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4CA01A0620A44C8100642221 /* SystemConfiguration.framework */,
+				4CA01A0420A44C7500642221 /* CoreGraphics.framework */,
+				4CA01A0220A44C6900642221 /* Security.framework */,
+				4CA01A0020A44C5A00642221 /* libc++.tbd */,
 				4CA019FE20A440DE00642221 /* AVFoundation.framework */,
 				4CA019FC20A4409200642221 /* libz.tbd */,
 				4CA019FA20A4406700642221 /* Foundation.framework */,
