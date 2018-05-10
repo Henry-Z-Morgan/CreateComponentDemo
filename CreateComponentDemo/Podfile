@@ -10,8 +10,8 @@ target 'CreateComponentDemo' do
   platform :ios, '8.0'
 
   pod 'Masonry'
-
-
+  pod 'AFNetworking'
+  pod 'JLRoutes'
 
 
 end
