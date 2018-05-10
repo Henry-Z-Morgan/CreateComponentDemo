@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "MPStartViewController.h"
 #import "MPBaseService.h"
 #import "CNNetworkConfig.h"
 
@@ -19,10 +20,24 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    //界面初始化
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    
+    [self openAppInitControllerLaunchOptions:launchOptions];
+    
     [self networkConfig];
     
-    
+    [self.window makeKeyAndVisible];
     return YES;
+}
+
+- (void)openAppInitControllerLaunchOptions:(NSDictionary *)launchOptions {
+    MPStartViewController *helpVC = [[MPStartViewController alloc] init];
+//    helpVC.window = self.window;
+//    helpVC.launchOptions = launchOptions;
+    UINavigationController * nav =  [[UINavigationController alloc] initWithRootViewController:helpVC];
+    self.window.rootViewController = nav;
 }
 
 //网络请求地址统一配置

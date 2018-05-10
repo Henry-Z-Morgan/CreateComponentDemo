@@ -8,20 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		4CA0198120A3E72E00642221 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA0198020A3E72E00642221 /* AppDelegate.m */; };
-		4CA0198420A3E72E00642221 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA0198320A3E72E00642221 /* ViewController.m */; };
-		4CA0198720A3E72E00642221 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CA0198520A3E72E00642221 /* Main.storyboard */; };
 		4CA0198920A3E72F00642221 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CA0198820A3E72F00642221 /* Assets.xcassets */; };
 		4CA0198C20A3E72F00642221 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CA0198A20A3E72F00642221 /* LaunchScreen.storyboard */; };
 		4CA0198F20A3E72F00642221 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA0198E20A3E72F00642221 /* main.m */; };
-		4CA019D220A40F1600642221 /* CNBaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA019D120A40F1600642221 /* CNBaseRequest.m */; };
-		4CA019D520A4172A00642221 /* CNRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA019D420A4172A00642221 /* CNRequest.m */; };
-		4CA019D820A420F200642221 /* CNBatchRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA019D720A420F200642221 /* CNBatchRequest.m */; };
-		4CA019DB20A4258700642221 /* CNBatchRequestAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA019DA20A4258700642221 /* CNBatchRequestAgent.m */; };
-		4CA019DE20A4265100642221 /* CNChainRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA019DD20A4265100642221 /* CNChainRequest.m */; };
-		4CA019E120A427A300642221 /* CNChainRequestAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA019E020A427A300642221 /* CNChainRequestAgent.m */; };
-		4CA019E420A4281000642221 /* CNNetworkConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA019E320A4281000642221 /* CNNetworkConfig.m */; };
-		4CA019E720A4298800642221 /* CNNetworkAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA019E620A4298800642221 /* CNNetworkAgent.m */; };
-		4CA019EA20A42FB600642221 /* CNNetworkPrivate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA019E920A42FB600642221 /* CNNetworkPrivate.m */; };
 		4CA019EF20A4395800642221 /* MPBaseService.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA019EE20A4395800642221 /* MPBaseService.m */; };
 		4CA019F320A43D1700642221 /* MPHelpService.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA019F220A43D1700642221 /* MPHelpService.m */; };
 		4CA019F520A4404400642221 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CA019F420A4404400642221 /* CFNetwork.framework */; };
@@ -34,6 +23,17 @@
 		4CA01A0520A44C7500642221 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CA01A0420A44C7500642221 /* CoreGraphics.framework */; };
 		4CA01A0720A44C8100642221 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CA01A0620A44C8100642221 /* SystemConfiguration.framework */; };
 		4CA01A0820A4507B00642221 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CA01A0220A44C6900642221 /* Security.framework */; };
+		4CA01A1220A4588500642221 /* MPStartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA01A1020A4588500642221 /* MPStartViewController.m */; };
+		4CA01A1320A4588500642221 /* MPStartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CA01A1120A4588500642221 /* MPStartViewController.xib */; };
+		4CA01A6320A45A9B00642221 /* CNRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA01A5020A45A9B00642221 /* CNRequest.m */; };
+		4CA01A6420A45A9B00642221 /* CNBatchRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA01A5320A45A9B00642221 /* CNBatchRequest.m */; };
+		4CA01A6520A45A9B00642221 /* CNNetworkAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA01A5420A45A9B00642221 /* CNNetworkAgent.m */; };
+		4CA01A6620A45A9B00642221 /* CNChainRequestAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA01A5520A45A9B00642221 /* CNChainRequestAgent.m */; };
+		4CA01A6720A45A9B00642221 /* CNBaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA01A5720A45A9B00642221 /* CNBaseRequest.m */; };
+		4CA01A6820A45A9B00642221 /* CNBatchRequestAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA01A5820A45A9B00642221 /* CNBatchRequestAgent.m */; };
+		4CA01A6920A45A9B00642221 /* CNChainRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA01A5A20A45A9B00642221 /* CNChainRequest.m */; };
+		4CA01A6A20A45A9B00642221 /* CNNetworkPrivate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA01A5E20A45A9B00642221 /* CNNetworkPrivate.m */; };
+		4CA01A6B20A45A9B00642221 /* CNNetworkConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA01A6120A45A9B00642221 /* CNNetworkConfig.m */; };
 		8CCD58E3E4B0212541EFD323 /* libPods-CreateComponentDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 80AE5F750D925EE0F27CFF18 /* libPods-CreateComponentDemo.a */; };
 /* End PBXBuildFile section */
 
@@ -42,32 +42,10 @@
 		4CA0197C20A3E72E00642221 /* CreateComponentDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CreateComponentDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CA0197F20A3E72E00642221 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4CA0198020A3E72E00642221 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		4CA0198220A3E72E00642221 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		4CA0198320A3E72E00642221 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		4CA0198620A3E72E00642221 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4CA0198820A3E72F00642221 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4CA0198B20A3E72F00642221 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4CA0198D20A3E72F00642221 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4CA0198E20A3E72F00642221 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		4CA019D020A40F1600642221 /* CNBaseRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CNBaseRequest.h; sourceTree = "<group>"; };
-		4CA019D120A40F1600642221 /* CNBaseRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CNBaseRequest.m; sourceTree = "<group>"; };
-		4CA019D320A4172A00642221 /* CNRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CNRequest.h; sourceTree = "<group>"; };
-		4CA019D420A4172A00642221 /* CNRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CNRequest.m; sourceTree = "<group>"; };
-		4CA019D620A420F200642221 /* CNBatchRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CNBatchRequest.h; sourceTree = "<group>"; };
-		4CA019D720A420F200642221 /* CNBatchRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CNBatchRequest.m; sourceTree = "<group>"; };
-		4CA019D920A4258700642221 /* CNBatchRequestAgent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CNBatchRequestAgent.h; sourceTree = "<group>"; };
-		4CA019DA20A4258700642221 /* CNBatchRequestAgent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CNBatchRequestAgent.m; sourceTree = "<group>"; };
-		4CA019DC20A4265100642221 /* CNChainRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CNChainRequest.h; sourceTree = "<group>"; };
-		4CA019DD20A4265100642221 /* CNChainRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CNChainRequest.m; sourceTree = "<group>"; };
-		4CA019DF20A427A300642221 /* CNChainRequestAgent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CNChainRequestAgent.h; sourceTree = "<group>"; };
-		4CA019E020A427A300642221 /* CNChainRequestAgent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CNChainRequestAgent.m; sourceTree = "<group>"; };
-		4CA019E220A4281000642221 /* CNNetworkConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CNNetworkConfig.h; sourceTree = "<group>"; };
-		4CA019E320A4281000642221 /* CNNetworkConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CNNetworkConfig.m; sourceTree = "<group>"; };
-		4CA019E520A4298800642221 /* CNNetworkAgent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CNNetworkAgent.h; sourceTree = "<group>"; };
-		4CA019E620A4298800642221 /* CNNetworkAgent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CNNetworkAgent.m; sourceTree = "<group>"; };
-		4CA019E820A42FB600642221 /* CNNetworkPrivate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CNNetworkPrivate.h; sourceTree = "<group>"; };
-		4CA019E920A42FB600642221 /* CNNetworkPrivate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CNNetworkPrivate.m; sourceTree = "<group>"; };
-		4CA019EB20A432A800642221 /* CNNetwork.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CNNetwork.h; sourceTree = "<group>"; };
 		4CA019ED20A4395800642221 /* MPBaseService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPBaseService.h; sourceTree = "<group>"; };
 		4CA019EE20A4395800642221 /* MPBaseService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MPBaseService.m; sourceTree = "<group>"; };
 		4CA019F120A43D1700642221 /* MPHelpService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPHelpService.h; sourceTree = "<group>"; };
@@ -82,6 +60,28 @@
 		4CA01A0220A44C6900642221 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		4CA01A0420A44C7500642221 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		4CA01A0620A44C8100642221 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		4CA01A0F20A4588500642221 /* MPStartViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPStartViewController.h; sourceTree = "<group>"; };
+		4CA01A1020A4588500642221 /* MPStartViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MPStartViewController.m; sourceTree = "<group>"; };
+		4CA01A1120A4588500642221 /* MPStartViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MPStartViewController.xib; sourceTree = "<group>"; };
+		4CA01A5020A45A9B00642221 /* CNRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CNRequest.m; sourceTree = "<group>"; };
+		4CA01A5120A45A9B00642221 /* CNChainRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CNChainRequest.h; sourceTree = "<group>"; };
+		4CA01A5220A45A9B00642221 /* CNNetworkPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CNNetworkPrivate.h; sourceTree = "<group>"; };
+		4CA01A5320A45A9B00642221 /* CNBatchRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CNBatchRequest.m; sourceTree = "<group>"; };
+		4CA01A5420A45A9B00642221 /* CNNetworkAgent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CNNetworkAgent.m; sourceTree = "<group>"; };
+		4CA01A5520A45A9B00642221 /* CNChainRequestAgent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CNChainRequestAgent.m; sourceTree = "<group>"; };
+		4CA01A5620A45A9B00642221 /* CNNetworkConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CNNetworkConfig.h; sourceTree = "<group>"; };
+		4CA01A5720A45A9B00642221 /* CNBaseRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CNBaseRequest.m; sourceTree = "<group>"; };
+		4CA01A5820A45A9B00642221 /* CNBatchRequestAgent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CNBatchRequestAgent.m; sourceTree = "<group>"; };
+		4CA01A5920A45A9B00642221 /* CNRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CNRequest.h; sourceTree = "<group>"; };
+		4CA01A5A20A45A9B00642221 /* CNChainRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CNChainRequest.m; sourceTree = "<group>"; };
+		4CA01A5B20A45A9B00642221 /* CNNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CNNetwork.h; sourceTree = "<group>"; };
+		4CA01A5C20A45A9B00642221 /* CNBatchRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CNBatchRequest.h; sourceTree = "<group>"; };
+		4CA01A5D20A45A9B00642221 /* CNNetworkAgent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CNNetworkAgent.h; sourceTree = "<group>"; };
+		4CA01A5E20A45A9B00642221 /* CNNetworkPrivate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CNNetworkPrivate.m; sourceTree = "<group>"; };
+		4CA01A5F20A45A9B00642221 /* CNBatchRequestAgent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CNBatchRequestAgent.h; sourceTree = "<group>"; };
+		4CA01A6020A45A9B00642221 /* CNBaseRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CNBaseRequest.h; sourceTree = "<group>"; };
+		4CA01A6120A45A9B00642221 /* CNNetworkConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CNNetworkConfig.m; sourceTree = "<group>"; };
+		4CA01A6220A45A9B00642221 /* CNChainRequestAgent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CNChainRequestAgent.h; sourceTree = "<group>"; };
 		80AE5F750D925EE0F27CFF18 /* libPods-CreateComponentDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CreateComponentDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		89543BE09B0D889B87A578AA /* Pods-CreateComponentDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CreateComponentDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CreateComponentDemo/Pods-CreateComponentDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -138,46 +138,18 @@
 		4CA0197E20A3E72E00642221 /* CreateComponentDemo */ = {
 			isa = PBXGroup;
 			children = (
+				4CA01A0920A456A100642221 /* AppDelegate */,
+				4CA01A0A20A456E900642221 /* General */,
+				4CA01A0B20A4573300642221 /* ExpandView */,
+				4CA01A0C20A4578D00642221 /* Vendors */,
 				4CA019F020A43CE000642221 /* TestFolder */,
 				4CA019EC20A4390600642221 /* BaseServices */,
-				4CA019CF20A40EF100642221 /* CNNetwork */,
-				4CA0197F20A3E72E00642221 /* AppDelegate.h */,
-				4CA0198020A3E72E00642221 /* AppDelegate.m */,
-				4CA0198220A3E72E00642221 /* ViewController.h */,
-				4CA0198320A3E72E00642221 /* ViewController.m */,
-				4CA0198520A3E72E00642221 /* Main.storyboard */,
-				4CA0198820A3E72F00642221 /* Assets.xcassets */,
+				4CA01A6C20A45AAF00642221 /* Resources */,
 				4CA0198A20A3E72F00642221 /* LaunchScreen.storyboard */,
 				4CA0198D20A3E72F00642221 /* Info.plist */,
 				4CA0198E20A3E72F00642221 /* main.m */,
 			);
 			path = CreateComponentDemo;
-			sourceTree = "<group>";
-		};
-		4CA019CF20A40EF100642221 /* CNNetwork */ = {
-			isa = PBXGroup;
-			children = (
-				4CA019D320A4172A00642221 /* CNRequest.h */,
-				4CA019D420A4172A00642221 /* CNRequest.m */,
-				4CA019D020A40F1600642221 /* CNBaseRequest.h */,
-				4CA019D120A40F1600642221 /* CNBaseRequest.m */,
-				4CA019D620A420F200642221 /* CNBatchRequest.h */,
-				4CA019D720A420F200642221 /* CNBatchRequest.m */,
-				4CA019D920A4258700642221 /* CNBatchRequestAgent.h */,
-				4CA019DA20A4258700642221 /* CNBatchRequestAgent.m */,
-				4CA019DC20A4265100642221 /* CNChainRequest.h */,
-				4CA019DD20A4265100642221 /* CNChainRequest.m */,
-				4CA019DF20A427A300642221 /* CNChainRequestAgent.h */,
-				4CA019E020A427A300642221 /* CNChainRequestAgent.m */,
-				4CA019E520A4298800642221 /* CNNetworkAgent.h */,
-				4CA019E620A4298800642221 /* CNNetworkAgent.m */,
-				4CA019E220A4281000642221 /* CNNetworkConfig.h */,
-				4CA019E320A4281000642221 /* CNNetworkConfig.m */,
-				4CA019E820A42FB600642221 /* CNNetworkPrivate.h */,
-				4CA019E920A42FB600642221 /* CNNetworkPrivate.m */,
-				4CA019EB20A432A800642221 /* CNNetwork.h */,
-			);
-			path = CNNetwork;
 			sourceTree = "<group>";
 		};
 		4CA019EC20A4390600642221 /* BaseServices */ = {
@@ -196,6 +168,90 @@
 				4CA019F220A43D1700642221 /* MPHelpService.m */,
 			);
 			path = TestFolder;
+			sourceTree = "<group>";
+		};
+		4CA01A0920A456A100642221 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				4CA0197F20A3E72E00642221 /* AppDelegate.h */,
+				4CA0198020A3E72E00642221 /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		4CA01A0A20A456E900642221 /* General */ = {
+			isa = PBXGroup;
+			children = (
+				4CA01A0D20A4581D00642221 /* StartUp */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
+		4CA01A0B20A4573300642221 /* ExpandView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ExpandView;
+			sourceTree = "<group>";
+		};
+		4CA01A0C20A4578D00642221 /* Vendors */ = {
+			isa = PBXGroup;
+			children = (
+				4CA01A4F20A45A9B00642221 /* CNNetwork */,
+			);
+			path = Vendors;
+			sourceTree = "<group>";
+		};
+		4CA01A0D20A4581D00642221 /* StartUp */ = {
+			isa = PBXGroup;
+			children = (
+				4CA01A0E20A4583100642221 /* ViewController */,
+			);
+			path = StartUp;
+			sourceTree = "<group>";
+		};
+		4CA01A0E20A4583100642221 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4CA01A0F20A4588500642221 /* MPStartViewController.h */,
+				4CA01A1020A4588500642221 /* MPStartViewController.m */,
+				4CA01A1120A4588500642221 /* MPStartViewController.xib */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		4CA01A4F20A45A9B00642221 /* CNNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				4CA01A5020A45A9B00642221 /* CNRequest.m */,
+				4CA01A5120A45A9B00642221 /* CNChainRequest.h */,
+				4CA01A5220A45A9B00642221 /* CNNetworkPrivate.h */,
+				4CA01A5320A45A9B00642221 /* CNBatchRequest.m */,
+				4CA01A5420A45A9B00642221 /* CNNetworkAgent.m */,
+				4CA01A5520A45A9B00642221 /* CNChainRequestAgent.m */,
+				4CA01A5620A45A9B00642221 /* CNNetworkConfig.h */,
+				4CA01A5720A45A9B00642221 /* CNBaseRequest.m */,
+				4CA01A5820A45A9B00642221 /* CNBatchRequestAgent.m */,
+				4CA01A5920A45A9B00642221 /* CNRequest.h */,
+				4CA01A5A20A45A9B00642221 /* CNChainRequest.m */,
+				4CA01A5B20A45A9B00642221 /* CNNetwork.h */,
+				4CA01A5C20A45A9B00642221 /* CNBatchRequest.h */,
+				4CA01A5D20A45A9B00642221 /* CNNetworkAgent.h */,
+				4CA01A5E20A45A9B00642221 /* CNNetworkPrivate.m */,
+				4CA01A5F20A45A9B00642221 /* CNBatchRequestAgent.h */,
+				4CA01A6020A45A9B00642221 /* CNBaseRequest.h */,
+				4CA01A6120A45A9B00642221 /* CNNetworkConfig.m */,
+				4CA01A6220A45A9B00642221 /* CNChainRequestAgent.h */,
+			);
+			path = CNNetwork;
+			sourceTree = "<group>";
+		};
+		4CA01A6C20A45AAF00642221 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4CA0198820A3E72F00642221 /* Assets.xcassets */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		AE4E5E3AFB8755A8C21233BE /* Frameworks */ = {
@@ -275,9 +331,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CA01A1320A4588500642221 /* MPStartViewController.xib in Resources */,
 				4CA0198C20A3E72F00642221 /* LaunchScreen.storyboard in Resources */,
 				4CA0198920A3E72F00642221 /* Assets.xcassets in Resources */,
-				4CA0198720A3E72E00642221 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,34 +365,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4CA019E120A427A300642221 /* CNChainRequestAgent.m in Sources */,
-				4CA019E720A4298800642221 /* CNNetworkAgent.m in Sources */,
-				4CA019D820A420F200642221 /* CNBatchRequest.m in Sources */,
-				4CA019EA20A42FB600642221 /* CNNetworkPrivate.m in Sources */,
-				4CA0198420A3E72E00642221 /* ViewController.m in Sources */,
-				4CA019D220A40F1600642221 /* CNBaseRequest.m in Sources */,
+				4CA01A6920A45A9B00642221 /* CNChainRequest.m in Sources */,
+				4CA01A6620A45A9B00642221 /* CNChainRequestAgent.m in Sources */,
+				4CA01A1220A4588500642221 /* MPStartViewController.m in Sources */,
+				4CA01A6A20A45A9B00642221 /* CNNetworkPrivate.m in Sources */,
 				4CA019EF20A4395800642221 /* MPBaseService.m in Sources */,
+				4CA01A6720A45A9B00642221 /* CNBaseRequest.m in Sources */,
+				4CA01A6420A45A9B00642221 /* CNBatchRequest.m in Sources */,
 				4CA0198F20A3E72F00642221 /* main.m in Sources */,
-				4CA019DB20A4258700642221 /* CNBatchRequestAgent.m in Sources */,
-				4CA019E420A4281000642221 /* CNNetworkConfig.m in Sources */,
-				4CA019D520A4172A00642221 /* CNRequest.m in Sources */,
 				4CA019F320A43D1700642221 /* MPHelpService.m in Sources */,
+				4CA01A6B20A45A9B00642221 /* CNNetworkConfig.m in Sources */,
+				4CA01A6520A45A9B00642221 /* CNNetworkAgent.m in Sources */,
+				4CA01A6820A45A9B00642221 /* CNBatchRequestAgent.m in Sources */,
+				4CA01A6320A45A9B00642221 /* CNRequest.m in Sources */,
 				4CA0198120A3E72E00642221 /* AppDelegate.m in Sources */,
-				4CA019DE20A4265100642221 /* CNChainRequest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		4CA0198520A3E72E00642221 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4CA0198620A3E72E00642221 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		4CA0198A20A3E72F00642221 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
